@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  scheduler:
+    build: ./scheduler
+    ports:
+      - "8085:8085"
+    volumes:
+      - ./scheduler/data:/app/data
+    environment:
+      - NODE_ENV=production
+
+  scraper:
+    build: ./scraper
+    ports:
+      - "8086:8086"
+  test-job:
+    build: ./test-job
+    ports:
+      - "8088:8088"
+  web-interface:
+    build: ./web-interface
+    ports:
+      - "8087:8087"
+    environment:
+      - VITE_SCHEDULER_API_URL=http://localhost:8085
+    depends_on:
+      - scheduler

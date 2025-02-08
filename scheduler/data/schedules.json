@@ -1,0 +1,14 @@
+[
+    {
+        "id": "scraper",
+        "url": "http://scraper:8086/execute",
+        "cronExpression": "*/30 * * * *",
+        "enabled": true
+    },
+    {
+        "id": "testjob",
+        "url": "http://test-job:8088/execute",
+        "cronExpression": "15 * * * *",
+        "enabled": true
+    }
+]
