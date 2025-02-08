@@ -34,6 +34,6 @@ async def execute_job():
             'status': 'error',
             'message': str(e)
         }), 500
-
+print('scrape server started')
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8086)
