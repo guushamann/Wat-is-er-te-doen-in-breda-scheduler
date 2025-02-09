@@ -508,5 +508,83 @@
     "timestamp": "2025-02-08T20:30:33.845Z",
     "status": "success",
     "response": "200 OK"
+  },
+  {
+    "id": "scraper",
+    "timestamp": "2025-02-08T21:00:12.318Z",
+    "status": "error",
+    "response": "Request failed with status code 500"
+  },
+  {
+    "id": "scraper",
+    "timestamp": "2025-02-09T00:00:12.158Z",
+    "status": "error",
+    "response": "Request failed with status code 500"
+  },
+  {
+    "id": "scraper",
+    "timestamp": "2025-02-09T01:00:09.752Z",
+    "status": "error",
+    "response": "Request failed with status code 500"
+  },
+  {
+    "id": "scraper",
+    "timestamp": "2025-02-09T03:00:10.120Z",
+    "status": "error",
+    "response": "Request failed with status code 500"
+  },
+  {
+    "id": "testjob",
+    "timestamp": "2025-02-09T03:15:02.018Z",
+    "status": "success",
+    "response": "200 OK"
+  },
+  {
+    "id": "scraper",
+    "timestamp": "2025-02-09T03:30:10.095Z",
+    "status": "error",
+    "response": "Request failed with status code 500"
+  },
+  {
+    "id": "scraper",
+    "timestamp": "2025-02-09T08:00:09.556Z",
+    "status": "error",
+    "response": "Request failed with status code 500"
+  },
+  {
+    "id": "testjob",
+    "timestamp": "2025-02-09T08:15:02.699Z",
+    "status": "success",
+    "response": "200 OK"
+  },
+  {
+    "id": "scraper",
+    "timestamp": "2025-02-09T09:30:09.842Z",
+    "status": "error",
+    "response": "Request failed with status code 500"
+  },
+  {
+    "id": "testjob",
+    "timestamp": "2025-02-09T12:15:02.068Z",
+    "status": "success",
+    "response": "200 OK"
+  },
+  {
+    "id": "scraper",
+    "timestamp": "2025-02-09T12:33:10.549Z",
+    "status": "success",
+    "response": "200 OK"
+  },
+  {
+    "id": "scraper",
+    "timestamp": "2025-02-09T13:03:29.684Z",
+    "status": "success",
+    "response": "200 OK"
+  },
+  {
+    "id": "testjob",
+    "timestamp": "2025-02-09T13:15:02.037Z",
+    "status": "success",
+    "response": "200 OK"
   }
 ]

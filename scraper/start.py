@@ -102,7 +102,6 @@ async def start():
     'X-Access-Key': os.environ.get("JSON_BIN_KEY")
     }
     
-    
     req = requests.put(url, json=results, headers=headers)
     print(f"response jsonbin {req.text}")
     
